@@ -14,13 +14,55 @@ namespace Exo.WebApi.Controllers
 
         public ProjetosController(ProjetoRepository projetoRepository)
         {
-            this.projetoRepository = projetoRepository;
+            this.projetoRepository = projetoRepository ?? throw new ArgumentNullException(nameof(projetoRepository));
         }
 
         [HttpGet]
         public IActionResult Listar()
         {
-            return Ok(projetoRepository.Listar);
+            var projetos = projetoRepository.Listar;
+            return Ok(projetos);
+        }
+
+        [HttpPost]
+        public IActionResult Cadastrar([FromBody] Projeto projeto)
+        {
+            projetoRepository.Cadastrar(projeto);
+            return StatusCode(201);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult BuscarPorId(int id)
+        {
+            var projeto = projetoRepository.BuscarporId(id);
+
+            if (projeto == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(projeto);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Atualizar(int id, [FromBody] Projeto projeto)
+        {
+            projetoRepository.Atualizar(id, projeto);
+            return StatusCode(204);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            try
+            {
+                projetoRepository.Deletar(id);
+                return StatusCode(204);
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
         }
     }
 }

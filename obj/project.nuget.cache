@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LBRWa65xbuzA8xnq0lei2v1ObQb5YNCA8OcydvudqfwBvhgD9+BZe2y9624XEOIAy5crBso2bGMMcPgBmTI1ew==",
+  "dgSpecHash": "w/DtzuUcaFm4NmO4Jh6W+QEsYJD22ehmqETL3XVh7QegD/oBbt+wQJcTyrGHxsCPDW4sLqM1CADUIJUCNrrMPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\Exo.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\Atividade-3-Criar-estrutura-da-API-com-Context-e-metodo-GET-para-projetos\\Exo.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\Exo.WebApi.csproj": {}
+    "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\Atividade-3-Criar-estrutura-da-API-com-Context-e-metodo-GET-para-projetos\\Exo.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\Exo.WebApi.csproj": {
+    "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\Atividade-3-Criar-estrutura-da-API-com-Context-e-metodo-GET-para-projetos\\Exo.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\Exo.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\Atividade-3-Criar-estrutura-da-API-com-Context-e-metodo-GET-para-projetos\\Exo.WebApi.csproj",
         "projectName": "Exo.WebApi",
-        "projectPath": "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\Exo.WebApi.csproj",
+        "projectPath": "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\Atividade-3-Criar-estrutura-da-API-com-Context-e-metodo-GET-para-projetos\\Exo.WebApi.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\user\\Downloads\\MATERIAL-PARA-O-ALUNO-FAZER-ATIVIDADE (2)\\Exo.WebApi\\Atividade-3-Criar-estrutura-da-API-com-Context-e-metodo-GET-para-projetos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
